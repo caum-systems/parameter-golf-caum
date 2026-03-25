@@ -1,0 +1,42 @@
+[
+  {
+    "name": "baseline_11L_3x",
+    "params": 26501720,
+    "artifact_mb": 7.50856,
+    "final_bpb": 2.3882042469492464,
+    "final_loss": 3.9463121700286865,
+    "tok_per_sec": 30896.560622454836
+  },
+  {
+    "name": "leaky_relu_only",
+    "params": 26501720,
+    "artifact_mb": 7.507823,
+    "final_bpb": 2.3846812256084675,
+    "final_loss": 3.940490665435791,
+    "tok_per_sec": 22082.213163195927
+  },
+  {
+    "name": "leaky_plus_smeargate",
+    "params": 32268888,
+    "artifact_mb": 7.518599,
+    "final_bpb": 2.49720022337896,
+    "final_loss": 4.126419105529785,
+    "tok_per_sec": 15452.112224170647
+  },
+  {
+    "name": "leaky_plus_bigram",
+    "params": 26763864,
+    "artifact_mb": 7.579296,
+    "final_bpb": 2.342670430186272,
+    "final_loss": 3.871071262359619,
+    "tok_per_sec": 16726.090352730425
+  },
+  {
+    "name": "full_enhanced",
+    "params": 32531032,
+    "artifact_mb": 7.592358,
+    "final_bpb": 2.463693969119016,
+    "final_loss": 4.071052761077881,
+    "tok_per_sec": 15626.283584019047
+  }
+]
