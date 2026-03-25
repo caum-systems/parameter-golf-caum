@@ -1,0 +1,34 @@
+[
+  {
+    "name": "random_baseline",
+    "strategy": "random",
+    "params": 23061296,
+    "final_bpb": 2.260182827550515,
+    "final_loss": 3.7347672462463377,
+    "tok_per_sec": 26209.505514019267
+  },
+  {
+    "name": "easy_first",
+    "strategy": "easy_first",
+    "params": 23061296,
+    "final_bpb": 2.260055556948026,
+    "final_loss": 3.734556941986084,
+    "tok_per_sec": 21501.131961242376
+  },
+  {
+    "name": "hard_first",
+    "strategy": "hard_first",
+    "params": 23061296,
+    "final_bpb": 2.533033131076464,
+    "final_loss": 4.185630054473877,
+    "tok_per_sec": 12710.194290508101
+  },
+  {
+    "name": "mixed_interleave",
+    "strategy": "mixed",
+    "params": 23061296,
+    "final_bpb": 2.3683019688589257,
+    "final_loss": 3.913425283432007,
+    "tok_per_sec": 26068.41318687004
+  }
+]
